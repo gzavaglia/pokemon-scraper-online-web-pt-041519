@@ -6,6 +6,10 @@ class Pokemon
   end
   
   def self.save
+    sql = <<-SQL
+      CREATE TABLE pokemon
+      
+    SQL
     
   end
   
