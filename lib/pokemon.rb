@@ -5,4 +5,8 @@ class Pokemon
     arguments.each {|key, value| self.send(("#{key}="), value)}
   end
   
+  def self.save
+    
+  end
+  
 end
